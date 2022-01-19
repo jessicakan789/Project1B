@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Code modified from https://angus.readthedocs.io/en/2016/running-command-line-blast.html
 
 # Get Puccinia Striiformis FASTA genome
