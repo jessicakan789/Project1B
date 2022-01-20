@@ -1,6 +1,4 @@
-# Count contigs and alignments
-
-from collections import Counter
+# Create list of contigs and alignment
 
 Contig_list = list(range(1, 283, 1))
 Align_list = []
