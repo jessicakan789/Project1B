@@ -15,4 +15,8 @@ gunzip Puccinia_Striiformis.fna.gz
 makeblastdb -in Puccinia_Striiformis.fna -dbtype nucl
 
 # BlastN 
-blastn -query assembly.fasta -db Puccinia_Striiformis.fna -out blastn_Puccinia_Striiformis.txt
+blastn -query assembly.fasta -db Puccinia_Striiformis.fna -out blastn_Puccinia_Striiformis.txt #-outfmt "6 qseqid sseqid slen qstart qend length mismatch gapopen gaps sseq" 
+
+## In theory we should be able to add -outfmt to the end to get the txt file as a tabular format and after that we can specify what we want to be reported.
+# However -outfmt isn't recognised in CLIMB on BLASTn even though it is listed when you blastn -help.
+
