@@ -52,3 +52,9 @@ print(N50) #227877
 ## Calculating N90 - the minimum contig length to cover 90 percent of the genome.
 N90 = len.sorted[cumsum(len.sorted) >= sum(len.sorted)*0.9][1]
 print(N90) #67860
+
+# Useful links
+# https://www.biostars.org/p/237591/
+# https://johnbhorne.wordpress.com/2016/06/11/quick-n50-and-n90-calculation-in-r/
+# https://rdrr.io/github/Bioconductor/Biostrings/man/misc.html
+# https://bioconductor.org/packages/devel/bioc/manuals/Biostrings/man/Biostrings.pdf
