@@ -15,4 +15,4 @@ gunzip Puccinia_Striiformis.fna.gz
 makeblastdb -in Puccinia_Striiformis.fna -dbtype nucl
 
 # BlastN 
-blastn -query assembly.fasta -db Puccinia_Striiformis.fna -out blastn_Puccinia_Striiformis.txt
+blastn -query assembly.fasta -db Puccinia_Striiformis.fna -out blastn_Puccinia_Striiformis.txt -outfmt 6
