@@ -14,5 +14,5 @@ gunzip C_quercuum.faa.gz
 # Create Database for BLASTp
 makeblastdb -in C_quercuum.faa -dbtype prot
 
-# BLASTp 
+# BLASTp with output format as 6 = tabular
 blastp -query Septo_prot.aa.fasta -db C_quercuum.faa -out blastp_C_quercuum.txt -outfmt 6
