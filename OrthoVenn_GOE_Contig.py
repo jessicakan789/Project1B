@@ -47,7 +47,7 @@ print(Contigs3)
 import csv
 
 # field names 
-fields = ["cluster_name", "protein_number", "swiss_prot_id", "go_annotation"] 
+fields = ["cluster_name", "protein_number", "swiss_prot_id", "go_annotation", "protein_list"] 
     
 with open('PLANT_contigs.csv', 'w', newline='') as f:
       
