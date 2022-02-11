@@ -6,6 +6,6 @@ Data supplied by Dr Daniel Henk
 
 Project carried out by Jade Allum and Jessica Kan
 
-Contributers Jack Clark and Maliha Hakim
+Contributers Jack Clark and Maliha Hakim (BUSCO)
 
 Property of University of Bath
