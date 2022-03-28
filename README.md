@@ -1,6 +1,6 @@
 # Project1B
 
-Septobasidium genome characterisation and comparison against other fungi
+Identification of Potential Septobasidium cavarae Virulence Factors through Comparative Genomic Analysis 
 
 Data supplied by Dr Daniel Henk
 
